@@ -1,6 +1,12 @@
-weekend = ['понедельник', 'вторник', 'среда', 'четверг', 'пятница', 'суббота', 'воскресенье']
+print('введите ФИО полностью:')
+name = str(input())
 
-print('введите номер дня недели:' )
-day = int(input())
+nameShort = ''
+name1 = True
+name2 = True
+name3 = True
 
-print('выбранный вами день недели:\n', weekend[day - 1])
+for i in range(len(name) - 1):
+    nameShort += 
+
+print(nameShort)

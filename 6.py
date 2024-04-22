@@ -1,6 +1,9 @@
-month = ['январь', 'февраль', 'март', 'апрель', 'май', 'июнь', 'июль', 'август', 'сентябрь', 'октябрь', 'ноябрь', 'декабрь']
-print('сколько прошло:')
-number = int(input())
-if number > 12:
-    number //= 12
-print(month[number - 1])
+globalCount = 0
+for i in range(1, 300):
+    count = 0
+    for j in range(1, i):
+        if i // j:
+            count += 1
+    if count == 5:
+        globalCount += 1
+print(globalCount)
